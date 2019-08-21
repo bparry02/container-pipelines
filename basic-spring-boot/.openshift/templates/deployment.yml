@@ -72,6 +72,8 @@ objects:
             value: ${JWS_ADMIN_USERNAME}
           - name: JWS_ADMIN_PASSWORD
             value: ${JWS_ADMIN_PASSWORD}
+          - name: MY_ENV_SECRET
+            value: ${MY_SECRET_LITERAL}
           image: ${APPLICATION_NAME}
           imagePullPolicy: Always
           name: ${APPLICATION_NAME}
@@ -143,3 +145,7 @@ parameters:
   name: READINESS_RESPONSE
   required: true
   value: 'Hello World!'
+- description: 'Secret literal'
+  name: MY_SECRET_LITERAL
+  value: 'Secret not set'
+  
