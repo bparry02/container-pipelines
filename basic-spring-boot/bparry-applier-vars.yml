@@ -1,0 +1,6 @@
+skip_version_checks: True
+sb_source_repository_url: "https://github.com/bparry02/container-pipelines.git"
+sb_source_repository_ref: basic-spring-fix
+sb_application_repository_url: "https://github.com/bparry02/spring-rest.git"
+sb_application_repository_ref: env-secret
+
