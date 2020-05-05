@@ -4,25 +4,25 @@ items:
 - apiVersion: project.openshift.io/v1
   kind: ProjectRequest
   metadata:
-    name: basic-spring-boot-build
+    name: bp-basic-spring-boot-build
     creationTimestam: null
   displayName: Spring Rest App - Build
 - apiVersion: project.openshift.io/v1
   kind: ProjectRequest
   metadata:
-    name: basic-spring-boot-dev
+    name: bp-basic-spring-boot-dev
     creationTimestam: null
   displayName: Spring Rest App - Dev
 - apiVersion: project.openshift.io/v1
   kind: ProjectRequest
   metadata:
-    name: basic-spring-boot-stage
+    name: bp-basic-spring-boot-stage
     creationTimestam: null
   displayName: Spring Rest App - Stage
 - apiVersion: project.openshift.io/v1
   kind: ProjectRequest
   metadata:
-    name: basic-spring-boot-prod
+    name: bp-basic-spring-boot-prod
     labels:
       environment: production
     creationTimestam: null

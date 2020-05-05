@@ -1,8 +1,8 @@
-sb_application_name: basic-spring-boot
-sb_build_namespace: basic-spring-boot-build
-sb_dev_namespace: basic-spring-boot-dev
-sb_stage_namespace: basic-spring-boot-stage
-sb_prod_namespace: basic-spring-boot-prod
+sb_application_name: bp-basic-spring-boot
+sb_build_namespace: bp-basic-spring-boot-build
+sb_dev_namespace: bp-basic-spring-boot-dev
+sb_stage_namespace: bp-basic-spring-boot-stage
+sb_prod_namespace: bp-basic-spring-boot-prod
 sb_application_repository_url: "https://github.com/redhat-cop/spring-rest.git"
 sb_application_repository_ref: master
 sb_application_readiness_response: "status.:.UP"
